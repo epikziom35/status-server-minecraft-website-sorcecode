@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00b8d4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form select,
+form input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 50%;
+  background-color: #00b8d4;
+  color: white;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0081c2;
+}
+
+#server-status-container {
+  margin-top: 20px;
+}
+
+#server-status-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#server-status-container th,
+#server-status-container td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#server-status-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#server-status-container th {
+  background-color: #00b8d4;
+  color: white;
+}
